@@ -1,0 +1,37 @@
+# Skuid (Nintex Apps)
+
+> Skuid is a low-code application-development platform for building custom, data-connected user experiences on top of Salesforce and other enterprise systems. Builders assemble Pages from configurable UI components bound to Models, which read and write data through Data Sources (Salesforce, REST, OData, SQL, Google, OpenAI, and more). Skuid exposes a client-side JavaScript API (skuid.model, skuid.$, snippets, component APIs) rather than a hosted REST API, and ships developer tooling — a deployment CLI and a Salesforce DX plugin. Skuid was acquired by Nintex and is now delivered as Nintex Apps.
+
+## Docs
+- [Skuid Documentation](https://docs.skuid.com/latest/en/): Concepts, Reference, Site Administration, and Tutorials.
+- [Getting Started](https://docs.skuid.com/latest/en/skuid/getting-started/): Onboarding guide for new builders.
+- [JavaScript API Reference](https://docs.skuid.com/latest/en/skuid/api/): skuid.model, skuid.$, snippets, and component-specific APIs.
+- [Data source Merge API Reference](https://docs.skuid.com/latest/en/skuid/merge-syntax/data-source-merge-api.html): Merge syntax for data sources.
+- [API Versioning in Skuid](https://docs.skuid.com/latest/en/skuid/api-version/index.html): Page API version 1 and version 2.
+- [Deprecated in Skuid](https://docs.skuid.com/latest/en/skuid/deprecated-features-api.html): Deprecated features and APIs.
+- [Data Sources](https://docs.skuid.com/latest/en/reference/): REST, OData, SQL, Salesforce, Google, and OpenAI connectors.
+
+## Developer tooling
+- [Skuid CLI](https://github.com/skuid/skuid-cli): Go CLI for retrieving and deploying Skuid metadata between environments.
+- [skuid-sfdx](https://github.com/skuid/skuid-sfdx): Salesforce DX plugin for managing Skuid metadata.
+- [skuid-labs](https://github.com/skuid/skuid-labs): Community custom components and samples.
+- [Sample Pages](https://github.com/skuid/SamplePages): Example Skuid pages.
+- [GitHub Organization](https://github.com/skuid): Open-source repositories.
+
+## Operations
+- [Status Page](https://status.skuid.com/): Skuid Inc. platform status.
+- [Release Notes](https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm): Dated platform release notes.
+- [Community & Support](https://community.nintex.com/): Nintex/Skuid community and support.
+
+## Company
+- [Website](https://www.skuid.com/): Product site (redirects to Nintex Apps).
+- [Blog](https://www.nintex.com/blog/): Nintex blog.
+- [Terms of Use](https://www.nintex.com/legal/website-and-community-terms-of-use/)
+- [Privacy Policy](https://www.nintex.com/legal/privacy-policy/)
+
+## Repo artifacts
+- [packages/skuid-packages.yml](packages/skuid-packages.yml): First-party packages and tooling.
+- [cli/skuid-cli.yml](cli/skuid-cli.yml): CLI command surface.
+- [lifecycle/skuid-lifecycle.yml](lifecycle/skuid-lifecycle.yml): Versioning, deprecation, status.
+- [changelog/skuid-changelog.yml](changelog/skuid-changelog.yml): Release-notes pointer.
+- [security/skuid-domain-security.yml](security/skuid-domain-security.yml): TLS/DNS posture.

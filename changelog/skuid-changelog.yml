@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm
+description: >-
+  Skuid publishes dated release notes for the Skuid platform (Skuid SFX /
+  Skuid on Salesforce and the Nintex Apps runtime) on the Nintex help site. The
+  live release-notes page is the source of truth; only the scheme and current
+  version are captured here (individual dated entries were not enumerated to
+  avoid transcription drift).
+scheme: platform-release
+current_version: v17.10
+release_notes_url: https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm
+salesforce_releases_url: https://www.skuid.com/releases/salesforce/
+entries: []

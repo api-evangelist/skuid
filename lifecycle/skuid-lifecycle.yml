@@ -1,0 +1,32 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://docs.skuid.com/latest/en/skuid/api-version/index.html,
+  https://docs.skuid.com/latest/en/skuid/deprecated-features-api.html,
+  https://status.skuid.com/,
+  https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm
+versioning:
+  scheme: platform-release + page-api-version
+  current: v17.10
+  page_api_versions: [v1, v2]
+  docs: https://docs.skuid.com/latest/en/skuid/api-version/index.html
+  notes: >-
+    Skuid versions its runtime by platform release (documentation reflects
+    v17.10) and separately versions its Page/model client API — Skuid provides
+    two Page API versions, API version 1 and API version 2. A v2 Page API
+    Migration Utility is documented for moving pages between versions. Skuid is
+    now delivered as Nintex Apps following the Nintex acquisition.
+deprecation:
+  policy_url: https://docs.skuid.com/latest/en/skuid/deprecated-features-api.html
+  sunset_header: false
+  notes: >-
+    Skuid documents deprecated features and APIs on a dedicated "Deprecated in
+    Skuid" reference page rather than via RFC 8594 Sunset/Deprecation response
+    headers (Skuid exposes a client-side JavaScript API and data-source
+    connectors, not a hosted REST API).
+status_page: https://status.skuid.com/
+release_notes: https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm
+sla:
+  url: null
+  public_uptime_target: null
+  notes: No public numeric uptime SLA published for the Skuid brand.

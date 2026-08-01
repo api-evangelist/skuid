@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: >-
+  https://github.com/skuid (Skuid GitHub organization),
+  https://pkg.go.dev/github.com/skuid/skuid-cli,
+  https://registry.npmjs.org/skuid-sfdx. Registry HTTP status recorded at fetch
+  time. Skuid publishes no language client SDK for a hosted REST API (Skuid is a
+  low-code app-development platform, now Nintex Apps); the first-party packages
+  below are its developer tooling — a deployment CLI and a Salesforce DX plugin —
+  plus community component libraries.
+packages:
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/skuid/skuid-cli
+    url: https://pkg.go.dev/github.com/skuid/skuid-cli
+    source: https://github.com/skuid/skuid-cli
+    install: go install github.com/skuid/skuid-cli@latest
+    latest: 0.6.12
+    description: Command line application for deploying and retrieving Skuid metadata (Pages) between environments.
+    official: true
+  - language: javascript
+    registry: npm
+    name: skuid-sfdx
+    url: https://www.npmjs.com/package/skuid-sfdx
+    source: https://github.com/skuid/skuid-sfdx
+    install: sfdx plugins:install skuid-sfdx
+    latest: 0.5.0
+    description: Salesforce DX (SFDX) plugin for pulling and pushing Skuid metadata in a Salesforce org.
+    official: true
+  - language: javascript
+    registry: github
+    name: skuid-labs
+    url: https://github.com/skuid/skuid-labs
+    source: https://github.com/skuid/skuid-labs
+    description: Community-shared custom Skuid components and code samples.
+    official: false
+  - language: none
+    registry: github
+    name: SamplePages
+    url: https://github.com/skuid/SamplePages
+    source: https://github.com/skuid/SamplePages
+    description: Example Skuid pages to help builders get started.
+    official: true

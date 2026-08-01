@@ -1,9 +1,30 @@
 aid: skuid
 name: Skuid
-description: 'Skuid is a company surfaced as a portfolio company of iconiq-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise-software. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Skuid is a low-code application-development platform for building custom,
+  data-connected user experiences on top of Salesforce and other enterprise
+  systems. Builders assemble Pages from configurable UI components bound to
+  Models, which read and write data through Data Sources (Salesforce, REST,
+  OData, SQL, Google, OpenAI, and more). Rather than a hosted REST API, Skuid
+  exposes a client-side JavaScript API (skuid.model, skuid.$, snippets, and
+  component-specific APIs) plus a data-source Merge API, and ships first-party
+  developer tooling — a Go deployment CLI (skuid-cli) and a Salesforce DX plugin
+  (skuid-sfdx) for moving metadata between environments. Skuid was acquired by
+  Nintex and is now delivered as Nintex Apps. Originally surfaced as a portfolio
+  company of ICONIQ Capital and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/skuid/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://docs.skuid.com/latest/en/_static/img/logo-landing.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Software
+- Low-Code
+- No-Code
+- Application Development
+- Salesforce
+- User Experience
+- Data Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,44 @@ maintainers:
 common:
 - type: Website
   url: https://www.skuid.com/
+- type: DeveloperPortal
+  url: https://docs.skuid.com/latest/en/
+- type: Documentation
+  url: https://docs.skuid.com/latest/en/
+- type: APIReference
+  url: https://docs.skuid.com/latest/en/skuid/api/
+- type: GettingStarted
+  url: https://docs.skuid.com/latest/en/skuid/getting-started/
+- type: Support
+  url: https://community.nintex.com/
+- type: Blog
+  url: https://www.nintex.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/skuid
+- type: SignUp
+  url: https://www.nintex.com/request-demo/
+- type: TermsOfService
+  url: https://www.nintex.com/legal/website-and-community-terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.nintex.com/legal/privacy-policy/
+- type: StatusPage
+  url: https://status.skuid.com/
+- type: Deprecation
+  url: https://docs.skuid.com/latest/en/skuid/deprecated-features-api.html
+- type: ChangeLog
+  url: https://help.nintex.com/en-US/platform/ReleaseNotes/SkuidSFX.htm
+- type: Packages
+  url: packages/skuid-packages.yml
+- type: CLI
+  url: cli/skuid-cli.yml
+- type: Lifecycle
+  url: lifecycle/skuid-lifecycle.yml
+- type: DomainSecurity
+  url: security/skuid-domain-security.yml
+- type: LLMsTxt
+  url: llms/skuid-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1

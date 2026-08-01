@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/skuid/skuid-cli
+description: >-
+  The Skuid CLI is a first-party Go command-line application for deploying and
+  retrieving Skuid metadata (Pages, themes, and related resources) between Skuid
+  environments — the DevOps layer over the low-code platform. The binary itself
+  is catalogued in packages/skuid-packages.yml; this artifact enumerates its
+  command surface. Authentication is supplied via environment variables (host,
+  username, password / client credentials).
+docs: https://github.com/skuid/skuid-cli#readme
+repo: https://github.com/skuid/skuid-cli
+latest: 0.6.12
+install:
+  go: go install github.com/skuid/skuid-cli@latest
+  release: https://github.com/skuid/skuid-cli/releases
+auth:
+  mechanism: environment variables
+  variables:
+    - SKUID_HOST
+    - SKUID_USERNAME
+    - SKUID_PASSWORD
+commands:
+  metadata:
+    - {name: retrieve, description: Retrieve Skuid metadata (Pages) from a Skuid environment to the local filesystem.}
+    - {name: deploy, description: Deploy local Skuid metadata (Pages) up to a target Skuid environment.}
+  utility:
+    - {name: help, description: Get help for any CLI command.}
+    - {name: version, description: Print the installed skuid CLI version.}
