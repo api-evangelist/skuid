@@ -35,6 +35,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.skuid.com/', status: 301, note: 'declared website redirects to https://www.nintex.com/platforms/cloud-automation/app-development/?referrer=skuid — a different registrable domain (skuid.com -> nintex.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://docs.skuid.com/latest/en/_static/img/logo-landing.svg
 x-type: company
 x-source: vc-portfolio
